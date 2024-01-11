@@ -1,0 +1,9 @@
+name: hub1
+desc: hub1
+runbooks:
+- name: book1
+  desc: book1
+  selectors:
+  - type: labelSelector
+    selector: app=sample
+  doc: book1.md
